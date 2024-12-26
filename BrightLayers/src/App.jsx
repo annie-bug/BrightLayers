@@ -6,10 +6,10 @@ function App() {
   
 
   return (
-    <>
+    <div className="bg-[#ecf0f1]">
       <Navbar />
       <Home />
-    </>
+    </div>
   )
 }
 

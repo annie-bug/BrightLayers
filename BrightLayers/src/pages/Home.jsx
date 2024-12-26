@@ -1,10 +1,14 @@
 import React from 'react'
 import home1 from '../assets/home1.jpg'
 import ContactForm from './ContactForm.jsx'
+import image from '../assets/image.png'
+import Vector from '../assets/Vector.png'
+import DropDown from '../functions/DropDown.jsx'
+
 
 function Home() {
   return (
-    <div className='w-auto h-auto bg-[#ecf0f1] overflow-hidden'>
+    <div className='w-auto h-auto bg-[#ecf0f1] overflow-hidden  z-[-1]'>
       <div className='w-auto flex items-center justify-center h-[500px] BrightLayers'>
         <div className='w-[1215px] text-center'>
           <span className='text-[#303338] text-[55px] font-medium, font-pSans leading-[64.90px] tracking-wide'>
@@ -23,7 +27,7 @@ function Home() {
       <div className="w-full h-[222px] flex justify-end mt-36">
         <img
           src={home1}
-          className=" w-[1200px] h-[222px] object-cover"
+          className="w-[1200px] h-[222px] object-cover"
           alt="assets"
         />
       </div>
@@ -34,7 +38,7 @@ function Home() {
                 className="w-[495px] h-[19px] text-right text-[#da5428] 
                 text-[25px] font-semibold font-pSans
                 capitalize leading-[29.5px] tracking-tight">
-                What do we do?
+                What Do We Do?
               </div>
 
               <div
@@ -57,11 +61,33 @@ function Home() {
                 </a>
               </div>
           </div>
-
-          <div className=''>
-
+          <div className='w-full h-[222px] flex justify-start mt-40'>
+                <img src={image} alt="assets"  className='w-[1200px] h-[222px] object-cover'/>
           </div>
-      <ContactForm />
+          <div className='w-auto h-[324px] flex flex-col mt-36 px-4'>
+                <div className='w-[509px] h-[19px] text-right text-[#da5428] 
+                text-[25px] font-semibold font-pSans
+                capitalize leading-[29.5px] tracking-tight'>How Do We Do It?</div>
+                <div className='w-[863px] h-[364px] text-[#535353] 
+                text-[24.5px] font-medium font-title leading-9 tracking-tight text-left mt-4 mx-auto'>Our approach is different - a boutique-style agency that prioritizes understanding our clients as intimately as our own business. This approach has not only made us experts in our field but has allowed us to build genuine partnerships.</div>
+                <div className='flex justify-end'>
+                <a href='#examples' className="w-[151px] h-[156px] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4">
+                    check services
+                </a>
+              </div>
+          </div>
+          <div className='w-[550px] h-[137px] text-[#303338] text-[45px] font-semibold font-pSans leading-4 tracking-tight mt-10 ml-[146px]'>Service We Provide For Your Brand
+          <span className="text-[#303338] text-[66px] font-medium font-pSans leading-[77.88px] tracking-wide">
+            {" "}
+          </span>
+          <span className="text-[#303338] text-[47px] font-bold font-pSans leading-[57.82px] tracking-wide">
+            ツ
+          </span>
+            <img src={Vector} alt="stroke" className='w-[255px]'/>
+          </div>
+          <div>
+            <DropDown />
+          </div>
     </div>
   )
 }
