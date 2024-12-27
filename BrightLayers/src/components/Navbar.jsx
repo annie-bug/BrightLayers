@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className="w-auto h-[70px] px-20 flex justify-between items-center bg-gradient sticky top-0    border-none backdrop-blur-sm ">
+    <div className="navbar-area w-auto h-[166px] px-20 flex justify-between items-center">
     
 
 
