@@ -14,8 +14,7 @@ function App() {
         <Route path="/" element = {<Home />} />
         <Route path="/LetsTalk" element = {<LetsTalk />} />
       </Routes>
-      {/* <Navbar />
-      <Home /> */}
+      
     </div>
   )
 }
