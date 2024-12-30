@@ -8,7 +8,7 @@ import rectangle191 from '../assets/rectangle191.png'
 function BlogSpot() {
   return (
 
-    <div className='mb-[30%]'>
+    <div className='mb-[25%]'>
             <div className='text-center text-[42.43px] font-medium font-pSans leading-[58.33px] tracking-wide'>Blog</div>
             <div className='m-auto h-auto flex justify-between w-[89%] mt-20 mb-20'>
                 <div>

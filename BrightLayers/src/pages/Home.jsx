@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import home1 from '../assets/home1.jpg'
 import ContactForm from './ContactForm.jsx'
 import image from '../assets/image.png'
@@ -14,11 +15,29 @@ import InfiniteScroll from '../components/card/InfiniteScroll.jsx'
 import Footer from '../components/Footer.jsx'
 import FounderBio from '../components/FounderBio.jsx'
 import BlogSpot from '../components/BlogSpot.jsx'
-
+import Navbar from '../components/Navbar.jsx'
+import { useLocation } from 'react-router-dom';
 
 function Home() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const href = location.hash.substring(1); // Get the hash without the '#'
+    if (href) {
+      const element = document.getElementById(href);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+      // Clear the hash from the URL
+      history.replaceState(null, '', window.location.pathname);
+    } else {
+      // Scroll to top if no hash is present
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
   return (
     <div className='w-auto h-auto bg-[#ecf0f1] overflow-hidden z-[-1] mt-[10%]'>
+      <Navbar />
             <div className='w-auto flex items-center justify-center h-[500px] BrightLayers'>
               <div className='w-[1215px] text-center'>
                   <span className='text-[#303338] text-[55px] font-medium, font-pSans leading-[64.90px] tracking-wide'>
@@ -34,7 +53,7 @@ function Home() {
                       </span>
                </div>
             </div>
-            <div className="w-full h-[222px] flex justify-end mt-36">
+            <div className="w-full h-[222px] flex justify-end mt-36" id='about'>
                 <img
                     src={home1}
                     className="w-[1200px] h-[222px] object-cover"
@@ -81,7 +100,7 @@ function Home() {
                             <div className='w-[863px] h-[364px] text-[#535353] 
                                 text-[24.5px] font-medium font-title leading-9 tracking-tight text-left mt-4 mx-auto'>Our approach is different - a boutique-style agency that prioritizes understanding our   clients as intimately as our own business. This approach has not only made us experts in our field but has allowed us to build genuine partnerships.</div>
                                 <div className='flex justify-end'>
-                                      <a href='#examples' className="w-[151px] h-[156px] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4">
+                                      <a href='#examples' className="w-[151px] h-[156px] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4" id='service'>
                                           check services
                                         </a>
                                     </div>
@@ -142,7 +161,7 @@ function Home() {
             <div>
               <FounderBio/>
             </div>
-            <div>
+            <div id='blog'>
                 <BlogSpot />
             </div>
             <div>

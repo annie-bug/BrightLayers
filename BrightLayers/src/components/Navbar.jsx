@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -31,19 +32,28 @@ function Navbar() {
 
           <div className="flex items-center space-x-8 ">
             
-            <a href="#about" className="text-lg font-extrabold font-title text-[#535353]">
+            <NavLink to='/#about' className={({ isActive }) =>
+              `text-lg font-medium font-title text-[#535353] ${
+              isActive ? "font-extrabold" : "font-medium"
+              }`}>
               About
-            </a>
+            </NavLink>
             
-            <a href="#service" className="text-lg font-medium font-title text-[#787878]">
+            <NavLink to='/#service' className={({ isActive }) =>
+              `text-lg font-medium font-title text-[#535353] ${
+              isActive ? "font-extrabold" : "font-medium"
+              }`}>
               Service
-            </a>
+            </NavLink>
             
-            <a href="#blog" className="text-lg font-medium font-title text-[#787878]">
+            <NavLink to='/#blog' className={({ isActive }) =>
+              `text-lg font-medium font-title text-[#535353] ${
+              isActive ? "font-extrabold" : "font-medium"
+              }`}>
               Blog
-            </a>
+            </NavLink>
             
-            <a href="#contact"
+            <a href="/LetsTalk"
                 className="flex items-center justify-center w-[110px] h-[30px] text-white bg-[#2c3e50] rounded-[5px] text-lg font-medium font-title shadow-[0px_4px_8.1px_rgba(0,0,0,0.25)] border"
             >
               let’s talk
