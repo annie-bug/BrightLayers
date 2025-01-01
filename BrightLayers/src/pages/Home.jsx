@@ -64,9 +64,9 @@ function Home() {
 
             <div className="w-auto h-[20.25rem] flex flex-col mt-36 px-4">
                     <div
-                      className="w-[30.9375rem] h-[1.1875rem] text-right text-[#da5428] 
+                      className="w-[53.938rem] h-[1.188rem] text-[#da5428] 
                       text-[1.5625rem] font-semibold font-pSans
-                      capitalize leading-[1.8438rem] tracking-tight">
+                      capitalize leading-[1.8438rem] tracking-tight mx-auto">
                       What Do We Do?
                       </div>
 
@@ -94,9 +94,9 @@ function Home() {
                     <img src={image} alt="assets"  className='w-[75rem] h-[13.875rem] object-cover'/>
                   </div>
                     <div className='w-auto h-[20.25rem] flex flex-col mt-36 px-4'>
-                        <div className='w-[31.8125rem] h-[1.1875rem] text-right text-[#da5428] 
+                        <div className='w-[53.938rem] h-[1.188rem] text-[#da5428] 
                           text-[1.5625rem] font-semibold font-pSans
-                          capitalize leading-[1.8438rem] tracking-tight'>How Do We Do It?</div>
+                          capitalize leading-[1.8438rem] tracking-tight mx-auto'>How Do We Do It?</div>
                             <div className='w-[53.9375rem] h-[22.75rem] text-[#535353] 
                                 text-[1.5313rem] font-medium font-title leading-9 tracking-tight text-left mt-4 mx-auto'>Our approach is different - a boutique-style agency that prioritizes understanding our   clients as intimately as our own business. This approach has not only made us experts in our field but has allowed us to build genuine partnerships.</div>
                                 <div className='flex justify-end'>
