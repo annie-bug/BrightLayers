@@ -11,7 +11,7 @@ function LetsTalk() {
         <Navbar />
         {/* The Title in the middle  */}
         <div className="w-full mt-80 flex justify-center items-center">
-            <div className="self-center w-[68.75rem] h-[10.125rem] mb-32 text-[#313338] text-center font-pSans text-[3.4375rem] font-medium leading-[118%] tracking-[0.03438rem]">A call is worth 
+            <div className="self-center w-[75.9375rem] h-[8.125rem] mb-32 text-[#313338] text-center font-pSans text-[3.4375rem] font-medium leading-[118%] tracking-[0.03438rem]">A call is worth 
                       <span className="text-[#F97316]"> 120 seconds </span>
                       of the fastest most definite call to action you can take ツ
             </div>
@@ -19,8 +19,8 @@ function LetsTalk() {
         
 
         {/* The form and image div */}
-          <div className="mx-auto flex flex-row justify-center gap-28 w-[90%]">
-            <div><img className="h-[63.25rem] w-[43.4375rem]" src={rectangle2} alt="" /></div>
+          <div className="flex flex-row justify-center">
+            <div><img className="h-[67.5625rem]" src={rectangle2} alt="" /></div>
             <LetsTalkForm/>
           </div>
 

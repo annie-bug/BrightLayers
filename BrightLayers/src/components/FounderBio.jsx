@@ -40,20 +40,20 @@ function FounderBio() {
       >
         {/* Founder Image */}
         <div>
-          <img src={founderImg} alt="Founder" className="h-[25.09rem] w-[29.375rem]" />
+          <img src={founderImg} alt="Founder" className="h-[32.135rem] w-[28.4375rem]" />
         </div>
 
         {/* Founder Details */}
-        <div className="flex flex-col justify-between pl-3 h-[25.5625rem]">
+        <div className="flex flex-col justify-between pl-3 h-[33.5rem]">
           <div>
-            <p className="text-[#565656] text-5xl font-semibold font-pSans leading-[2.97rem] max-w-[16.125rem] max-h-[6.1875rem] shrink-0">
+            <p className="text-[#565656] text-5xl font-semibold font-pSans leading-[2.97rem] w-[16.125rem] h-[6.1875rem] shrink-0">
               Pooja <br /> Bhadoriya
             </p>
-            <p className="text-[#717171] text-lg font-normal font-title">
+            <p className="text-[#717171] font-normal font-title w-[16.6875rem] h-[2.4375rem] text-lg">
               Founder & Creative Director
             </p>
           </div>
-          <p className="text-[#546660] text-[1.7119rem] font-normal font-archivo leading-9 tracking-tight max-w-[16.6875rem] max-h-[9.9375rem] shrink-0">
+          <p className="text-[#546660] text-[1.7119rem] font-normal font-archivo leading-9 tracking-tight w-[16.6875rem] h-[9.9375rem] shrink-0">
             &ldquo;Oh also, she&apos;s really excited to meet you, fellow
             business-owner.&rdquo;
           </p>
@@ -61,7 +61,7 @@ function FounderBio() {
 
         {/* Hidden Text Section */}
         <div
-          className={`transition-opacity duration-2000 ease-in-out max-w-[45rem] h-[28.75rem] text-[#727171] text-[1.625rem] font-normal font-title leading-9 tracking-tight space-y-6 ${
+          className={`transition-opacity duration-2000 ease-in-out w-[45rem] h-[28.75rem] text-[#727171] text-[1.5rem] font-normal font-title leading-[2.055rem] tracking-tight space-y-6 mt-5 ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >

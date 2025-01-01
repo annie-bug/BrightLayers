@@ -40,15 +40,15 @@ function Home() {
       <Navbar />
             <div className='w-auto flex items-center justify-center h-[31.25rem] BrightLayers'>
               <div className='w-[75.9375rem] text-center'>
-                  <span className='text-[#303338] text-[3.4375rem] font-medium, font-pSans leading-[4.0563rem] tracking-wide'>
+                  <span className='text-[#303338] md:text-[3.4375rem] min-[320px]:text-[1.125rem] font-medium min-[320px]:font-normal, font-pSans md:leading-[4.0563rem] min-[320px]:leading-[1.845rem] md:tracking-wide min-[320px]:tracking-tight'>
                       We are Bright Layers, a dynamic social media agency since 2019,
                       dedicated to elevating brands through creative content and strategic
                       digital marketing
                     </span>
-                    <span className="text-[#303338] text-[4.125rem] font-medium font-pSans leading-[4.8675rem] tracking-wide">
+                    <span className="text-[#303338] md:text-[4.125rem] md:font-medium font-pSans md:leading-[4.8675rem] md:tracking-wide min-[320px]:text-[1.125rem] min-[320px]:font-normal min-[320px]:leading-[1.845rem] min-[320px]:tracking-tight">
                         {" "}
                       </span>
-                    <span className="text-[#303338] text-[3.0625rem] font-medium font-pSans leading-[3.6138rem] tracking-wide">
+                    <span className="text-[#303338] md:text-[3.0625rem] md:font-medium font-pSans md:leading-[3.6138rem] md:tracking-wide min-[320px]:text-[1.125rem] min-[320px]:font-normal min-[320px]:leading-[1.845rem] min-[320px]:tracking-tight">
                           ツ
                       </span>
                </div>

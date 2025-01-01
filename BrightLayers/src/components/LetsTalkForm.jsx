@@ -2,16 +2,16 @@ import ToggleCheckbox from "./ToggleCheckbox.jsx";
 
 function LetsTalkForm() {
   return (
-    <div className="w-[53.9375rem] h-[2.0625rem]">
-      <div className="w-full flex flex-col sm:flex-row gap-6">
+    <div className="">         
+      <div className="w-full flex flex-col sm:flex-row">    {/*pr-[8.78rem]*/}
         
-        <div className="grid md:grid-cols-2 md:gap-6 w-full">  {/*Made a grid for the form layout */}
+        <div className="grid md:grid-cols-2 w-full">  {/*Made a grid for the form layout */}
 
           {/* First Name and Last Name */}
-          <div className="relative z-0 w-full mb-12 group">
+          <div className="relative z-0 mb-12 group">
             <input
               type="text"
-              className="block pt-6 px-0 w-full text-3xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              className="block pt-6 text-3xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
               placeholder=" "
               required
             />
@@ -19,10 +19,10 @@ function LetsTalkForm() {
               First name
             </label>
           </div>
-          <div className="relative z-0 w-full mb-12 group">
+          <div className="relative z-0 mb-12 group">
             <input
               type="text"
-              className="block pt-6  px-0 w-full text-3xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              className="block pt-6 text-3xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
               placeholder=" "
               required
             />
@@ -34,10 +34,10 @@ function LetsTalkForm() {
       </div>
 
       {/* <!-- Email --> */}
-      <div className="mb-12 relative z-0 w-full">
+      <div className="mb-12 relative z-0">
         <input
           type="email"
-          className="block pt-6 px-0 w-full text-2xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+          className="block pt-6 px-0 text-2xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
           placeholder=" "
           required
         />
@@ -49,8 +49,8 @@ function LetsTalkForm() {
       {/* <!-- Phone Number --> */}
       <div className="mb-12 relative z-0 w-full">
         <input
-          type="email"
-          className="block pt-6 px-0 w-full text-2xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+          type="number"
+          className="block pt-6 px-0 text-2xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
           placeholder=" "
           required
         />
@@ -63,7 +63,7 @@ function LetsTalkForm() {
       <div className="mb-12 relative z-0 w-full">
         <input
           type="email"
-          className="block pt-6 px-0 w-full text-2xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+          className="block pt-6 px-0 text-2xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
           placeholder=" "
           required
         />
@@ -74,10 +74,10 @@ function LetsTalkForm() {
 
       {/* <!-- About Brand --> */}
 
-      <div className="flex flex-col items-end gap-6 w-100">
-  <div className="relative w-full min-w-[31.25rem]">
+      <div className="flex flex-col items-end gap-6">
+  <div className="relative w-[48.15625rem]">
     <textarea
-      className="peer h-full min-h-[12.5rem] w-full resize-none rounded-md border border-gray-300 bg-transparent px-3 py-3 text-2xl text-gray-700 focus:outline-none focus:border-2 dark:focus:border-blue-500"
+      className="peer h-[15rem] resize-none rounded-md border border-gray-300 bg-transparent px-3 py-3 text-2xl text-gray-700 focus:outline-none focus:border-2 dark:focus:border-blue-500"
       placeholder="Tell Us About Your Brand"
     ></textarea>
     <label
