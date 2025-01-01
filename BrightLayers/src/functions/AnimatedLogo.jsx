@@ -45,7 +45,7 @@ export const AnimatedLogo = () => {
 
   return (
     <div ref={ref}>
-      <div className={`relative w-[282px] h-[22px] overflow-hidden ${isIntersecting ? 'animate' : ''}`}>
+      <div className={`relative w-[17.625rem] h-[1.375rem] overflow-hidden ${isIntersecting ? 'animate' : ''}`}>
         <svg
           width="282"
           height="22"

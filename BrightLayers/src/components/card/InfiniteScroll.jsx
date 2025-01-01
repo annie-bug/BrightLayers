@@ -52,7 +52,7 @@ const InfiniteScroll = () => {
       ref={containerRef}
       style={{
         width: "89%",
-        maxWidth: "3000px",
+        maxWidth: "187.5rem",
         margin: "0 auto",
       }}
     >

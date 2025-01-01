@@ -34,12 +34,12 @@ const DropdownMenu = () => {
   ];
 
   return (
-    <div className="w-[32rem] ml-[138px] mt-10 font-sans">
+    <div className="w-[32rem] ml-[8.625rem] mt-10 font-sans">
       {menuItems.map((item, index) => (
         <div key={index} className="pb-[1.5rem]">
           <div className="flex justify-between items-center py-2 px-2">
             <span
-              className="text-[22px] font-medium font-title cursor-pointer"
+              className="text-[1.375rem] font-medium font-title cursor-pointer"
               onClick={() => toggleDropdown(index)}
             >
               {item.title}
@@ -71,11 +71,11 @@ const DropdownMenu = () => {
           <div
             className={`transition-all duration-1000 ease-in-out overflow-hidden ${
               activeIndex === index
-                ? "max-h-[1000px] opacity-100"
+                ? "max-h-[62.5rem] opacity-100"
                 : "max-h-0 opacity-0"
             }`}
           >
-            <div className="p-3 text-gray-600 text-[20px] font-title">
+            <div className="p-3 text-gray-600 text-[1.25rem] font-title">
               <p
                 className={`transition-opacity duration-1000 ease-in-out ${
                   activeIndex === index ? "opacity-100" : "opacity-0"

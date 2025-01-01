@@ -29,7 +29,7 @@ function FounderBio() {
   return (
     <div className="flex flex-col items-center justify-center py-20 bg-[#ecf0f1] px-4">
       {/* Heading */}
-      <div className="mb-36 text-[#303338] text-4xl font-semibold font-['Public Sans'] leading-[43.20px] tracking-tight">
+      <div className="mb-36 text-[#303338] text-4xl font-semibold font-pSans leading-[2.7rem] tracking-tight">
         Meet Our Founder
       </div>
 
@@ -44,16 +44,16 @@ function FounderBio() {
         </div>
 
         {/* Founder Details */}
-        <div className="flex flex-col justify-between pl-3 h-[409px]">
+        <div className="flex flex-col justify-between pl-3 h-[25.5625rem]">
           <div>
-            <p className="text-[#565656] text-5xl font-semibold font-pSans leading-[47.52px] max-w-[16.125rem] max-h-[6.1875rem] shrink-0">
+            <p className="text-[#565656] text-5xl font-semibold font-pSans leading-[2.97rem] max-w-[16.125rem] max-h-[6.1875rem] shrink-0">
               Pooja <br /> Bhadoriya
             </p>
             <p className="text-[#717171] text-lg font-normal font-title">
               Founder & Creative Director
             </p>
           </div>
-          <p className="text-[#546660] text-[27.39px] font-normal font-archivo leading-9 tracking-tight max-w-[16.6875rem] max-h-[9.9375rem] shrink-0">
+          <p className="text-[#546660] text-[1.7119rem] font-normal font-archivo leading-9 tracking-tight max-w-[16.6875rem] max-h-[9.9375rem] shrink-0">
             &ldquo;Oh also, she&apos;s really excited to meet you, fellow
             business-owner.&rdquo;
           </p>
@@ -61,7 +61,7 @@ function FounderBio() {
 
         {/* Hidden Text Section */}
         <div
-          className={`transition-opacity duration-2000 ease-in-out max-w-[45rem] h-[28.75rem] text-[#727171] text-[26px] font-normal font-title leading-9 tracking-tight space-y-6 ${
+          className={`transition-opacity duration-2000 ease-in-out max-w-[45rem] h-[28.75rem] text-[#727171] text-[1.625rem] font-normal font-title leading-9 tracking-tight space-y-6 ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >

@@ -2,11 +2,11 @@ import React from 'react';
 
 function TakeTheCall() {
   return (
-    <div className="w-[309px] h-[134px] relative group parent">
-      <div className="w-[206px] h-[110px] absolute text-right text-[#303338] text-[49.43px] font-semibold font-pSans leading-[58.33px] tracking-wide">
+    <div className="w-[19.3125rem] h-[8.375rem] relative group parent">
+      <div className="w-[12.875rem] h-[6.875rem] absolute text-right text-[#303338] text-[3.0894rem] font-semibold font-pSans leading-[3.6456rem] tracking-wide">
         Take <br /> <span className='un'>The Call</span>
       </div>
-      <div className="absolute left-[237px] top-[10px] flex flex-col justify-start">
+      <div className="absolute left-[14.8125rem] top-[0.625rem] flex flex-col justify-start">
         <svg
           width="42"
           height="43"
@@ -50,7 +50,7 @@ function TakeTheCall() {
             />
           </g>
         </svg>
-        <div className="w-[72px] h-[88px] text-orange-500 text-sm font-medium font-inter uppercase leading-tight tracking-wide">
+        <div className="w-[4.5rem] h-[5.5rem] text-orange-500 text-sm font-medium font-inter uppercase leading-tight tracking-wide">
           Tea or Coffee?
         </div>
       </div>

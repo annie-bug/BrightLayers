@@ -2,7 +2,7 @@ import ToggleCheckbox from "./ToggleCheckbox.jsx";
 
 function LetsTalkForm() {
   return (
-    <div className="w-[863px] h-[33px]">
+    <div className="w-[53.9375rem] h-[2.0625rem]">
       <div className="w-full flex flex-col sm:flex-row gap-6">
         
         <div className="grid md:grid-cols-2 md:gap-6 w-full">  {/*Made a grid for the form layout */}
@@ -11,7 +11,7 @@ function LetsTalkForm() {
           <div className="relative z-0 w-full mb-12 group">
             <input
               type="text"
-              className="block pt-6    px-0 w-full text-3xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              className="block pt-6 px-0 w-full text-3xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
               placeholder=" "
               required
             />
@@ -75,9 +75,9 @@ function LetsTalkForm() {
       {/* <!-- About Brand --> */}
 
       <div className="flex flex-col items-end gap-6 w-100">
-  <div className="relative w-full min-w-[500px]">
+  <div className="relative w-full min-w-[31.25rem]">
     <textarea
-      className="peer h-full min-h-[200px] w-full resize-none rounded-md border border-gray-300 bg-transparent px-3 py-3 text-2xl text-gray-700 focus:outline-none focus:border-2 dark:focus:border-blue-500"
+      className="peer h-full min-h-[12.5rem] w-full resize-none rounded-md border border-gray-300 bg-transparent px-3 py-3 text-2xl text-gray-700 focus:outline-none focus:border-2 dark:focus:border-blue-500"
       placeholder="Tell Us About Your Brand"
     ></textarea>
     <label
@@ -112,31 +112,31 @@ function LetsTalkForm() {
         <div className="grid grid-cols-2 gap-4 ">
           <label className="flex items-center space-x-2">
             <ToggleCheckbox />
-            <span className="text-[#535353] text-[25px] font-medium font-['Lato'] leading-loose tracking-tight">
+            <span className="text-[#535353] text-[1.5625rem] font-medium font-title leading-loose tracking-tight">
               Social Media Marketing
             </span>
           </label>
           <label className="flex items-center space-x-2">
             <ToggleCheckbox />
-            <span className="text-[#535353] text-[25px] font-medium font-['Lato'] leading-loose tracking-tight">
+            <span className="text-[#535353] text-[1.5625rem] font-medium font-title leading-loose tracking-tight">
               Branding & Imagery
             </span>
           </label>
           <label className="flex items-center space-x-2">
             <ToggleCheckbox />
-            <span className="text-[#535353] text-[25px] font-medium font-['Lato'] leading-loose tracking-tight">
+            <span className="text-[#535353] text-[1.5625rem] font-medium font-title leading-loose tracking-tight">
               Email Marketing
             </span>
           </label>
           <label className="flex items-center space-x-2">
             <ToggleCheckbox />
-            <span className="text-[#535353] text-[25px] font-medium font-['Lato'] leading-loose tracking-tight">
+            <span className="text-[#535353] text-[1.5625rem] font-medium font-title leading-loose tracking-tight">
               Social Media Adverts
             </span>
           </label>
           <label className="flex items-center space-x-2 col-span-2">
             <ToggleCheckbox />
-            <span className="text-[#535353] text-[25px] font-medium font-['Lato'] leading-loose tracking-tight">
+            <span className="text-[#535353] text-[1.5625rem] font-medium font-title leading-loose tracking-tight">
               Strategy Development
             </span>
           </label>

@@ -31,17 +31,17 @@ function Footer() {
             <div className=" ml-auto flex flex-row gap-12 my-auto mr-36">
 
                         <div className="flex flex-col">
-                        <div className="w-[7.8125rem] h-[1.8125rem] text-orange-500 text-xl font-bold font-['Lato'] mb-5">Socials</div>
-                        <div className="w-[7.8125rem] h-[1.8125rem] text-white text-base font-normal font-['Lato']">Instagram</div>
-                        <div className="w-[7.8125rem] h-[1.8125rem] text-white text-base font-normal font-['Lato']">Facebook</div>
-                        <div className="w-[7.8125rem] h-[1.8125rem] text-white text-base font-normal font-['Lato']">Twitter</div>
-                        <div className="w-[7.8125rem] h-[1.8125rem] text-white text-base font-normal font-['Lato']">Linkedin</div>
+                        <div className="w-[7.8125rem] h-[1.8125rem] text-orange-500 text-xl font-bold font-title mb-5">Socials</div>
+                        <div className="w-[7.8125rem] h-[1.8125rem] text-white text-base font-normal font-title">Instagram</div>
+                        <div className="w-[7.8125rem] h-[1.8125rem] text-white text-base font-normal font-title">Facebook</div>
+                        <div className="w-[7.8125rem] h-[1.8125rem] text-white text-base font-normal font-title">Twitter</div>
+                        <div className="w-[7.8125rem] h-[1.8125rem] text-white text-base font-normal font-title">Linkedin</div>
                         </div>
 
                         <div className="flex flex-col">
-                        <div className="w-[11.8125rem] h-[1.8125rem] text-orange-500 text-xl font-bold font-['Lato'] mb-5">Connect With Us</div>
-                        <div className="w-[12.8125rem] h-[1.8125rem] text-white text-base font-normal font-['Lato']">+91 9546898080</div>
-                        <div className="w-[13.0625rem] h-[1.8125rem] text-white text-base font-normal font-['Lato']">brightlayersmail.com</div>
+                        <div className="w-[11.8125rem] h-[1.8125rem] text-orange-500 text-xl font-bold font-title mb-5">Connect With Us</div>
+                        <div className="w-[12.8125rem] h-[1.8125rem] text-white text-base font-normal font-title">+91 9546898080</div>
+                        <div className="w-[13.0625rem] h-[1.8125rem] text-white text-base font-normal font-title">brightlayersmail.com</div>
                         </div>
     
             </div>
@@ -49,10 +49,10 @@ function Footer() {
 
     <div className='flex flex-row w-full '>
         
-        <div className=' w-[30rem] h-[2.8125rem] text-white font-["Lato"] font-normal text-sm px-24 '>Copyright @TheBrightLayers</div>
+        <div className=' w-[30rem] h-[2.8125rem] text-white font-title font-normal text-sm px-24 '>Copyright @TheBrightLayers</div>
         <div className='w-[28rem] ml-auto flex flex-row'>
-            <div className=' w-[10.0625rem] h-[1.8125rem] text-white font-["Lato"] font-normal text-sm px-24 '>Legal</div>
-            <div className=' w-[29.9375rem] h-[1.8125rem] text-white font-["Lato"] font-normal text-sm px-24  '>Site Map</div>   
+            <div className=' w-[10.0625rem] h-[1.8125rem] text-white font-title font-normal text-sm px-24 '>Legal</div>
+            <div className=' w-[29.9375rem] h-[1.8125rem] text-white font-title font-normal text-sm px-24  '>Site Map</div>   
         </div>
     </div>
         
