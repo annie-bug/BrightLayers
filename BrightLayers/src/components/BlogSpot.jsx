@@ -1,4 +1,4 @@
-import React from 'react'
+
 import rectangle187 from '../assets/rectangle187.png'
 import rectangle188 from '../assets/rectangle188.png'
 import rectangle189 from '../assets/rectangle189.png'
@@ -8,9 +8,9 @@ import rectangle191 from '../assets/rectangle191.png'
 function BlogSpot() {
   return (
 
-    <div className='mb-[25%]'>
+    <div className='mb-12'>
             <div className='text-center text-[2.6519rem] font-medium font-pSans leading-[3.6456rem] tracking-wide'>Blog</div>
-            <div className='m-auto h-auto flex justify-between w-[89%] mt-20 mb-20'>
+            <div className='m-auto flex justify-between w-[89%] mt-20'>
                 <div>
                     <div className='relative w-[25.5rem] h-[24.5rem] '>
                         <img src={rectangle187} alt="dummyImg1" className='w-[25.5rem] h-[24.5rem] opacity-80 bg-black transition-opacity duration-700 hover:opacity-0 hover:mb-4'/>

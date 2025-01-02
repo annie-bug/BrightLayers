@@ -168,7 +168,7 @@ function Home() {
             <div>
               <FounderBio/>
             </div>
-            <div id='blog'>
+            <div id='blog' className='md:mb-[25%]'>
                 <BlogSpot />
             </div>
             <div>
