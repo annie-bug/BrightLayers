@@ -21,9 +21,9 @@ function LetsTalk() {
         
 
         {/* The form and image div */}
-          <div className="flex flex-row pl-[5.5rem] h-[67.5625rem] w-[95%] gap-x-[4.25rem]">
+          <div className="flex flex-row pl-[5.5rem] h-[67.5625rem] w-[70%] gap-x-[4.25rem]">
             <div><img className="h-[64.5625rem] w-[40.1875rem]" src={rectangle2} alt="" /></div>
-            <div className="w-[20%] mr-7"><LetsTalkForm/></div>
+            <div className="w-[35%] mr-7"><LetsTalkForm/></div>
             
           </div>
 
