@@ -38,8 +38,8 @@ function Home() {
   return (
     <div className='w-auto h-auto bg-[#ecf0f1] overflow-hidden z-[-1] mt-[10%]'>
       <Navbar />
-            <div className='w-auto flex items-center justify-center h-[31.25rem] BrightLayers'>
-              <div className='w-[75.9375rem] text-center'>
+            <div className='w-auto flex items-center justify-center md:h-[31.25rem] min-[320px]:h-[27.5rem] BrightLayers'>
+              <div className='md:w-[75.9375rem] text-center min-[320px]:w-[23.375rem] min-[320px]:h-[8.375rem]'>
                   <span className='text-[#303338] md:text-[3.4375rem] min-[320px]:text-[1.125rem] font-medium min-[320px]:font-normal, font-pSans md:leading-[4.0563rem] min-[320px]:leading-[1.845rem] md:tracking-wide min-[320px]:tracking-tight'>
                       We are Bright Layers, a dynamic social media agency since 2019,
                       dedicated to elevating brands through creative content and strategic
@@ -48,50 +48,57 @@ function Home() {
                     <span className="text-[#303338] md:text-[4.125rem] md:font-medium font-pSans md:leading-[4.8675rem] md:tracking-wide min-[320px]:text-[1.125rem] min-[320px]:font-normal min-[320px]:leading-[1.845rem] min-[320px]:tracking-tight">
                         {" "}
                       </span>
-                    <span className="text-[#303338] md:text-[3.0625rem] md:font-medium font-pSans md:leading-[3.6138rem] md:tracking-wide min-[320px]:text-[1.125rem] min-[320px]:font-normal min-[320px]:leading-[1.845rem] min-[320px]:tracking-tight">
+                    <span className="text-[#303338] md:text-[3.0625rem] md:font-medium font-pSans md:leading-[3.6138rem] md:tracking-wide min-[320px]:text-[1.125rem] min-[320px]:font-bold min-[320px]:leading-[1.845rem] min-[320px]:tracking-tight">
                           ツ
                       </span>
                </div>
             </div>
-            <div className="w-full h-[13.875rem] flex justify-end mt-36" id='about'>
+            <div className="w-full h-[13.875rem] flex justify-end md:mt-36" id='about'>
                 <img
                     src={home1}
-                    className="w-[75rem] h-[13.875rem] object-cover"
+                    className="md:w-[75rem] md:h-[13.875rem] min-[320px]:w-[24.625rem] min-[320px]:h-[6.9375rem] object-cover"
                     alt="assets"
                   />
               </div>
 
 
-            <div className="w-auto h-[20.25rem] flex flex-col mt-36 px-4">
+            <div className="md:w-auto md:h-[20.25rem] flex flex-col md:mt-36 md:px-4 mx-auto w-80">
+                  <div className='text-center'>
                     <div
-                      className="w-[53.938rem] h-[1.188rem] text-[#da5428] 
-                      text-[1.5625rem] font-semibold font-pSans
-                      capitalize leading-[1.8438rem] tracking-tight mx-auto">
+                      className="md:w-[53.938rem] md:h-[1.188rem] text-[#da5428] 
+                      md:text-[1.5625rem] text-[1rem] md:font-semibold font-normal font-pSans capitalize md:leading-[1.8438rem] leading-[1.18rem] md:tracking-tight mx-auto w-[14.0625rem] h-[1.1875rem]">
                       What Do We Do?
                       </div>
+                      </div>
 
-                <div
-                    className="w-[53.9375rem] h-[22.75rem] text-[#535353] 
-                    text-[1.5313rem] font-medium font-title leading-9 tracking-tight text-left mt-4 mx-auto">
-                    In the last 5 years, the country has seen trendsetting marketing
-                    campaigns — but what&apos;s missing is &quot;the beyonds&quot; of a campaign. Does it
-                    end after a post, a hoarding, an ad? So we just want likes & comments?
-                    Maybe an app download? No. That can&apos;t be all.
-                    <br />
-                    <br />
-                    There&apos;s more to your brand than this — and we want to bring that to the
-                    front too. Beyond just campaigns. Just like our name, we are here to
-                    brighten up your social media presence with a layered approach that
-                    works exclusively for you.
-                  </div>
+                      <div className="md:w-[53.9375rem] md:h-[22.75rem]
+                      text-[#535353] md:text-[1.5313rem] 
+                        md:font-medium font-title md:leading-9 
+                        md:tracking-tight md:text-left md:mt-4
+                        md:mx-auto w-[21.6875rem] 
+                        h-[13.8125rem] text-center
+                        items-center mx-auto
+                        text-[0.8125rem] font-normal
+                        leading-[1.05819rem] pt-4">
+                        In the last 5 years, the country has seen trendsetting marketing
+                        campaigns — but what&apos;s missing is &quot;the beyonds&quot; of a
+                        campaign. Does it end after a post, a hoarding, an ad? So we just want
+                        likes & comments? Maybe an app download? No. That can&apos;t be all.
+                        <br />
+                        <br />
+                        There&apos;s more to your brand than this — and we want to bring that
+                        to the front too. Beyond just campaigns. Just like our name, we are
+                        here to brighten up your social media presence with a layered approach
+                        that works exclusively for you.
+                      </div>
                 <div className='flex justify-end'>
-                    <a href='#examples' className="w-[9.4375rem] h-[1.8125rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4">
+                    <a href='#examples' className="w-[9.4375rem] h-[1.8125rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 min-[320px]:hidden">
                         check examples
                     </a>
                   </div>
                 </div>
-                <div className='w-full h-[13.875rem] flex justify-start mt-40'>
-                    <img src={image} alt="assets"  className='w-[75rem] h-[13.875rem] object-cover'/>
+                <div className='md:w-full md:h-[13.875rem]  flex justify-start md:mt-40 w-[25.4375rem] h-[6.9375rem]'>
+                    <img src={image} alt="assets"  className='md:w-[75rem] md:h-[13.875rem] object-cover '/>
                   </div>
                     <div className='w-auto h-[20.25rem] flex flex-col mt-36 px-4'>
                         <div className='w-[53.938rem] h-[1.188rem] text-[#da5428] 
@@ -100,7 +107,7 @@ function Home() {
                             <div className='w-[53.9375rem] h-[22.75rem] text-[#535353] 
                                 text-[1.5313rem] font-medium font-title leading-9 tracking-tight text-left mt-4 mx-auto'>Our approach is different - a boutique-style agency that prioritizes understanding our   clients as intimately as our own business. This approach has not only made us experts in our field but has allowed us to build genuine partnerships.</div>
                                 <div className='flex justify-end'>
-                                      <a href='#examples' className="w-[9.4375rem] h-[9.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4" id='service'>
+                                      <a href='#examples' className="w-[9.4375rem] h-[9.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 min-[320px]:hidden" id='service'>
                                           check services
                                         </a>
                                     </div>
