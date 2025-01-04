@@ -53,20 +53,20 @@ function Home() {
                       </span>
                </div>
             </div>
-            <div className="w-full h-[13.875rem] flex justify-end md:mt-36" id='about'>
+            <div className="w-full md:h-[13.875rem] flex justify-end md:mt-36" id='about'>
                 <img
                     src={home1}
-                    className="md:w-[75rem] md:h-[13.875rem] min-[320px]:w-[24.625rem] min-[320px]:h-[6.9375rem] object-cover"
+                    className="md:w-[75rem] md:h-[13.875rem] w-[24.625rem] h-[6.9375rem] object-cover"
                     alt="assets"
                   />
               </div>
 
 
-            <div className="md:w-auto md:h-[20.25rem] flex flex-col md:mt-36 md:px-4 mx-auto w-80">
+            <div className="md:w-auto md:h-[20.25rem] flex flex-col md:mt-36 md:px-4 mx-auto w-80 mt-24">
                   <div className='text-center'>
                     <div
                       className="md:w-[53.938rem] md:h-[1.188rem] text-[#da5428] 
-                      md:text-[1.5625rem] text-[1rem] md:font-semibold font-normal font-pSans capitalize md:leading-[1.8438rem] leading-[1.18rem] md:tracking-tight mx-auto w-[14.0625rem] h-[1.1875rem]">
+                      md:text-[1.5625rem] text-[1.2rem] md:font-semibold font-normal font-pSans capitalize md:leading-[1.8438rem] leading-[1.18rem] md:tracking-tight mx-auto w-[14.0625rem] h-[1.1875rem] md:text-left">
                       What Do We Do?
                       </div>
                       </div>
@@ -78,8 +78,8 @@ function Home() {
                         md:mx-auto w-[21.6875rem] 
                         h-[13.8125rem] text-center
                         items-center mx-auto
-                        text-[0.8125rem] font-normal
-                        leading-[1.05819rem] pt-4">
+                        text-[1rem] font-normal
+                        leading-[1.3rem] pt-4">
                         In the last 5 years, the country has seen trendsetting marketing
                         campaigns — but what&apos;s missing is &quot;the beyonds&quot; of a
                         campaign. Does it end after a post, a hoarding, an ad? So we just want
@@ -97,36 +97,46 @@ function Home() {
                     </a>
                   </div>
                 </div>
-                <div className='md:w-full md:h-[13.875rem]  flex justify-start md:mt-40 w-[25.4375rem] h-[6.9375rem]'>
-                    <img src={image} alt="assets"  className='md:w-[75rem] md:h-[13.875rem] object-cover '/>
+                <div className='md:w-full md:h-[13.875rem] flex justify-start md:mt-40 w-[25.4375rem] h-[6.9375rem] mt-[10rem]'>
+                    <img src={image} alt="assets"  className='md:w-[75rem] md:h-[13.875rem] object-cover w-[25.4375rem] h-[6.9375rem]'/>
                   </div>
-                    <div className='w-auto h-[20.25rem] flex flex-col mt-36 px-4'>
-                        <div className='w-[53.938rem] h-[1.188rem] text-[#da5428] 
-                          text-[1.5625rem] font-semibold font-pSans
-                          capitalize leading-[1.8438rem] tracking-tight mx-auto'>How Do We Do It?</div>
-                            <div className='w-[53.9375rem] h-[22.75rem] text-[#535353] 
-                                text-[1.5313rem] font-medium font-title leading-9 tracking-tight text-left mt-4 mx-auto'>Our approach is different - a boutique-style agency that prioritizes understanding our   clients as intimately as our own business. This approach has not only made us experts in our field but has allowed us to build genuine partnerships.</div>
+                    <div className='md:w-auto md:h-[20.25rem] flex flex-col md:mt-36 mt-24 md:px-4 mx-auto w-80'>
+                      <div className='text-center'>
+                        <div className='md:w-[53.938rem] md:h-[1.188rem] text-[#da5428] 
+                          md:text-[1.5625rem] md:font-semibold font-pSans text-[1.2rem] font-normal leading-[1.18rem]
+                          capitalize md:leading-[1.8438rem] md:tracking-tight md:mx-auto mx-auto w-[14.0625rem] h-[1.1875rem]'>How Do We Do It?</div></div>
+                            <div className='md:w-[53.9375rem] md:h-[22.75rem] text-[#535353] 
+                                md:text-[1.5313rem] md:font-medium font-title md:leading-9 md:tracking-tight md:text-left md:mt-4 md:mx-auto
+                                w-[21.6875rem] 
+                                h-[13.8125rem] text-center
+                                items-center mx-auto
+                                text-[1rem] font-normal
+                                leading-[1.3rem] pt-4'>Our approach is different - a boutique-style agency that prioritizes understanding our   clients as intimately as our own business. This approach has not only made us experts in our field but has allowed us to build genuine partnerships.</div>
                                 <div className='flex justify-end'>
                                       <a href='#examples' className="w-[9.4375rem] h-[9.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 min-[320px]:hidden" id='service'>
                                           check services
                                         </a>
                                     </div>
                                 </div>
-                          <div className='w-[34.375rem] h-[8.5625rem] text-[#303338] text-[2.8125rem] font-semibold font-pSans leading-4 tracking-tight mt-10 ml-[9.125rem]'>Service We Provide For Your Brand
-                                <span className="text-[#303338] text-[4.125rem] font-medium font-pSans leading-[4.8675rem] tracking-wide">
-                                    {" "}
-                                  </span>
-                                <span className="text-[#303338] text-[2.9375rem] font-bold font-pSans leading-[3.6138rem] tracking-wide">
-                                    ツ
-                                  </span>
-                                    <AnimatedLogo />
-                          </div>
-                              <div className='flex items-center justify-between'>
-                                  <DropDown />
-                                  <div className='flex -my-24'>
-                                      <img src={rectangle} alt="image" className='mr-[5rem]' />
-                                    </div>
+
+                                <div className="w-[85rem] h-[55rem] bg-blue-300 flex items-center justify-between mx-auto">
+                                      <div className="w-[30rem] h-[50rem] bg-green-400 flex flex-col ml-24"> left
+                                            <div className='w-full h-[20%] bg-slate-600'> top
+                                              <div className='h-[50%] bg-slate-50 font-pSans leading-4 tracking-tight text-[#303338] text-[2.8125rem] font-semibold w-[34.375rem] '>Services We Provide For Your Brand<span className="text-[#303338] text-[2.9375rem] font-bold font-pSans leading-[3.6138rem] tracking-wide pl-2">
+                                              ツ
+                                                </span>
+                                              </div>
+                                              <div className='h-[50%] bg-red-900'><AnimatedLogo /></div>
+                                            </div>
+                                            <div className='w-full bg-slate-500'></div> rest 
+                                      </div>
+                                      <div className="w-[30rem] h-[44rem] bg-red-400 flex mr-10"> right
+                                            <div className='image'>
+                                              <img src="" alt="" />
+                                            </div>
+                                      </div>
                                 </div>
+
 
                                 <div>
                                   <ContactForm />
