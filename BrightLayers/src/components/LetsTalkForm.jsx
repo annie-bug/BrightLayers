@@ -11,7 +11,7 @@ function LetsTalkForm() {
             type="text"
             className="block pl-2 pt-6 w-full text-2xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
-            required
+            required  
           />
           <label className="absolute pointer-events-none text-2xl text-[#535353] duration-300 transform origin-left -translate-y-6 scale-75 top-3 peer-placeholder-shown:left-2 peer-placeholder-shown:translate-y-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:text-gray-500 peer-focus:text-blue-600 peer-focus:opacity-0">
             First Name
@@ -25,6 +25,7 @@ function LetsTalkForm() {
             className="block pl-2 pt-6 w-full text-2xl text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
             required
+            
           />
           <label className="absolute pointer-events-none text-2xl text-[#535353] duration-300 transform origin-left -translate-y-6 scale-75 top-3 peer-placeholder-shown:left-2 peer-placeholder-shown:translate-y-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:text-gray-500 peer-focus:text-blue-600 peer-focus:opacity-0">
             Last Name

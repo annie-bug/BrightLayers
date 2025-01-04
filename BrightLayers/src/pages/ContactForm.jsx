@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const ContactForm = ({ isVisible, onClose }) => {
   const [isClosing, setIsClosing] = useState(false);
@@ -34,24 +34,30 @@ const ContactForm = ({ isVisible, onClose }) => {
           id="name"
           name="name"
           required
-          className="w-full h-9 border border-gray-300 rounded mb-2 placeholder:text-xs placeholder:pl-3 placeholder:-translate-y-0.5"
+          className="w-full h-9 border border-gray-200 rounded mb-2 placeholder:text-xs  placeholder:-translate-y-0.5 pl-5 focus:ring-1 focus:ring-gray-500 focus:border-gray-500 focus:outline-none text-sm transition-all duration-500"
           placeholder='Name'
+          autoComplete="off"
+          onFocus={(e) => e.target.setAttribute("autocomplete", "off")}
         />
         <input
           type="text"
           id="contact"
           name="contact"
           required
-          className="w-full p-2 h-9 border border-gray-300 rounded mb-2 placeholder:text-xs placeholder:pl-1 placeholder:-translate-y-0.5"
+          className="w-full p-2 h-9 border border-gray-300 rounded mb-2 placeholder:text-xs placeholder:-translate-y-0.5 pl-5 focus:ring-1 focus:ring-gray-500 focus:border-gray-500 focus:outline-none text-sm transition-all duration-500"
           placeholder='Contact'
+          autoComplete="off"
+          onFocus={(e) => e.target.setAttribute("autocomplete", "off")}
         />
         <input
           type="text"
           id="service"
           name="service"
           required
-          className="w-full p-2 h-9 border border-gray-300 rounded mb-2 placeholder:text-xs placeholder:pl-1 placeholder:-translate-y-0.5"
+          className="w-full p-2 h-9 border border-gray-300 rounded mb-2 placeholder:text-xs placeholder:-translate-y-0.5 pl-5 focus:ring-1 focus:ring-gray-500 focus:border-gray-500 focus:outline-none text-sm transition-all duration-500"
           placeholder='Service'
+          autoComplete="off"
+          onFocus={(e) => e.target.setAttribute("autocomplete", "off")}
         />
         <button
           type="submit"
