@@ -6,6 +6,34 @@ import rectangle190 from '../assets/rectangle190.png'
 import rectangle191 from '../assets/rectangle191.png'
 
 function BlogSpot() {
+  const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        axios
+            .get("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@anisoccer749")
+            .then((res) => {
+                const posts = res.data.items;
+
+                // Extract the first image link from each post's description or content
+                const updatedPosts = posts.map((post) => {
+                    const description = post.description || "";
+                    const match = description.match(/<img[^>]+src=\"([^\">]+)\"/);
+                    const firstImageLink = match ? match[1] : null;
+
+                    return {
+                        ...post,
+                        firstImage: firstImageLink, // Add the extracted image link to the post object
+                    };
+                });
+
+                // Update state with the modified posts
+                setPosts(updatedPosts);
+            })
+            .catch((error) => {
+                console.log("Error fetching blog posts:", error);
+            });
+    }, []);
+
   return (
 
     <div className='mb-12'>
